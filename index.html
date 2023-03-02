@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<h4>Film Library</h4>
+	</header>
+	<div id="youtubeModal" style="display:none">
+		<iframe id="youtubeIframe" width="1020" height="630" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div class="grid-container">
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/gTQTULL31wI1--__CN1GrgKQaNE=/618x915/v2/https://resizing.flixster.com/6R5NafclJ9o7utVZiBRX9S5Z_2g=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzlkMTI1OGQzLTI0ZTMtNDZhZC1hNzllLTNlNzIxZGY1ZDA4Mi5qcGc=" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/ge1mh36euiZW7GhwgBFIjhL6Ybo=/618x915/v2/https://resizing.flixster.com/HyxB3a8sdK-y6fUI4akiNAT39KQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2I1YjM3YTg1LTg5YTgtNGUzNC1iMjFmLTJkMmIwNmQ1ZTk0YS5qcGc=" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/CLzU0r6KbnIVqeXulxxE_0MbuZc=/618x915/v2/https://resizing.flixster.com/gWWM2Ov0VLAuazwELZCVc9grUQI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzgyMGM0ZDJiLWNmYjAtNGI3NS1hYTgzLTQ5YmU2ZjQwZWE0ZC5qcGc=" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/UuyjwlbRE17UP6ot-ehuA_UXdrw=/618x915/v2/https://resizing.flixster.com/TIM4kfHTVZrfpF0tYt9LIU69A5s=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzU1OWIwMWQwLWYyZDItNDk4Yi04MDIxLWI3OTJlNDI1NjA3NS5qcGc=" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/GqqIhDj1pGjTU2X34cil5b9dgUo=/618x915/v2/https://resizing.flixster.com/vtIcjOYiM-QBXQyXhTFFgQoRkDw=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2JmNjM3ZTc2LTk5ZmMtNGJhNy04MDAzLWI3M2IxNmExNDNkYi5qcGc=" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/wwFE-DFGo0WPb0n4dXEtLkbnRe4=/618x915/v2/https://resizing.flixster.com/0Wuqfdlk2B3QUnrB7wPlQ7c47AI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzI3OTIwZDU1LTEwNmQtNGYwZS1iNjhlLTIwNmU0MjdiYmY2MS5qcGc=" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/NOvWtXrBSbR4g0jMy0DdgJL0Vkg=/618x915/v2/https://resizing.flixster.com/xDJ3R7jehOUEX543YnCS9ITLL70=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzQxYzZkM2E3LWEwMWYtNDY2Zi1iNTc2LWU4MTYxMWFhZGQ5NC5qcGc=" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/ynsuPcbGw-kaGcQ8-zpw_v14Lyw=/618x915/v2/https://flxt.tmsimg.com/assets/p10951814_p_v8_al.jpg" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/9f2IGTmZXWb7-gVKEUuF1QuB7dE=/618x915/v2/https://resizing.flixster.com/TX2lzGvmmae21WwTHTBu48lySbM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzYxNTg1OWIzLTFjZTAtNDRjMC1iNTM4LTlkY2FkNGVkY2MwMS5qcGc=" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/biXtr85Fn_B1JDf4Xc9c6ntbU_A=/618x915/v2/https://resizing.flixster.com/zs8TFWbPfSsndNJWCpNiILwzf3o=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2JiYzJkMmE5LTllZDUtNDQ0Ny1hYmUxLTBmMzk1MDQ4M2NkNC5qcGc=" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/X2rX17nF3gqAvkLzmPeGODf8B3Q=/618x915/v2/https://flxt.tmsimg.com/assets/p9756367_p_v8_av.jpg" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+		<div class="box">
+			<img class="previewImg" src="https://resizing.flixster.com/2yTtbYaljlzWgEhOCUTrH55jjfM=/618x915/v2/https://resizing.flixster.com/fC7nU6iTRQk02tS0SDS1ylx-G34=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2QxZjE5ZDgzLTRiY2MtNDFkYS04NWQ4LTRkYzc1ZTAwNWE2NC53ZWJw" alt="">
+			<i class="playIcon fa fa-play-circle-o" style="font-size:70px;"></i>
+		</div>
+	</div>
+</body>
+<script>
+const trailerArray = ['AHmCH7iB_IM', 'DuWEEKeJLMI', 'd9MyW72ELq0', 'giXco2jaZ_4', 'RqrXhwS33yc', '0IOsk2Vlc4o', 'wsfOkhAlzDk', 'ZlNFpri-Y40', 'mkomfZHG5q4', 'Go8nTmfrQd8', 'AK6EbfdnTHg', 'TcMBFSGVi1c']
+const playIcons = document.querySelectorAll('.playIcon');
+const modal = document.getElementById('youtubeModal');
+const iframe = document.getElementById('youtubeIframe');
+
+playIcons.forEach((playIcon, index) => {
+  const playIconId = index;
+
+  playIcon.setAttribute('id', playIconId);
+
+  playIcon.addEventListener('click', () => {
+	const id = trailerArray[index]
+	playVideo(id)
+  });
+});
+
+function playVideo(id) {
+	iframe.src = `https://www.youtube.com/embed/${id}`;
+
+	modal.style.display = 'block';
+
+	setTimeout(() => {
+		document.body.addEventListener('click', closeVideo);
+	}, 500);
+}
+
+function closeVideo(event) {
+  if (!modal.contains(event.target) || !playIcons.contains(event.target)) {
+	console.log("yuh")
+    iframe.src = '';
+    modal.style.display = 'none';
+    document.body.removeEventListener('click', closeVideo);
+  }
+}
+</script>
+</html>

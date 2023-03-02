@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: url(https://cdn.wallpapersafari.com/81/55/mfheuN.jpg) no-repeat;
+	background-color: #0000008a;
+	background-blend-mode: multiply;
+}
+
+header * {
+	font-family: 'Tilt Neon', cursive;
+	padding: 1rem;
+	text-align: center;
+	font-size: 2.75rem;
+	margin-top: 0;
+	background-color: #121212;
+	color: white;
+}
+
+.grid-container {
+	margin: 5rem;
+	margin-top: 2rem 	;
+	margin-bottom: 0 !important;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 40px;
+	justify-items: center;
+}
+.box {
+	position: relative;
+	height: 366px;
+	width: 247.2px;
+	margin: 0;
+}
+
+.previewImg {
+	height: 100%;
+	width: 100%;
+	border-radius: 7px;
+}
+
+.playIcon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	color: rgba(255, 255, 255, 0.719);
+	border: none;
+	cursor: pointer;
+	padding: 50px;
+	transition: 0.1s ease-in;
+}
+
+.playIcon:hover {
+	color: white;
+	scale: 1.01;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+
+#youtubeModal {
+	animation: 1s fadeIn;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index:  9999;
+  }
